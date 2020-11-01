@@ -1,0 +1,242 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+/* shape constroace */
+.continor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.shape{
+    background-color: black;
+    width: 44px;
+    height: 75px;
+    clip-path: polygon(49% 49%, 0% 100%, 100% 100%);
+    position: relative;
+}
+
+.tri-top{
+    transform: rotate(180deg);
+    
+}
+.tri-right-top{
+    transform: rotate(240deg);
+}
+.tri-bottom-right{
+    transform: rotate(300deg);  
+}
+.tri-bottom-left{
+    transform: rotate(60deg);
+}
+.tri-left-top{
+    transform: rotate(120deg); 
+}
+
+/* hexagon grups */
+.center{
+    position: relative;
+    top: 418px;
+    right:1px; 
+}
+.top{
+    position: relative;
+    top: 343px;
+}
+.top-left{
+    position: relative;
+    top: 379px;
+    right: 63.5px;
+}
+.top-right{
+    position: relative;
+    top: 380.3px;
+    left: 62.9px;
+}
+.bottom-right{
+    position: relative;
+    top: 455.3px;
+    left: 62.9px;
+}
+.bottom{
+    position: relative;
+    top: 492.4px;
+
+}
+.bottom-left{
+    position: relative;
+    top: 454.3px;
+    right: 63.9px;
+}
+
+/* colors */
+/* yellow color gruop */
+.yellow{
+    background-color: yellow;
+}
+.yellow-1{
+    background-color: rgb(255, 217, 0);
+}
+.yellow-2{
+    background-color: rgb(252, 209, 116);
+}
+.yellow-3{
+    background-color: rgb(204, 252, 116);
+}
+.yellow-4{
+    background-color: rgb(227, 252, 116);
+}
+.yellow-5{
+    background-color: rgb(252, 220, 116);
+}
+.yellow-6{
+    background-color: rgb(250, 252, 116);
+}
+
+/* orange group color  */
+.orange{
+    background-color: orange;
+}
+.orange-1 {
+    background-color: rgb(233, 199, 88);
+}
+.orange-2{
+    background-color: rgb(233, 170, 88);
+}
+.orange-3{
+    background-color: rgb(238, 207, 106);
+}
+.orange-4{
+    background-color: rgb(238, 94, 50);
+}
+.orange-5{
+    background-color: rgb(248, 58, 0);
+}
+.orange-6{
+    background-color: rgb(248, 112, 0);
+}
+
+/* red color gruop */
+.red{
+    background-color: red;
+}
+.red-1{
+    background-color: rgb(214, 68, 1);
+}
+.red-2{
+    background-color: rgb(180, 29, 2);
+}
+.red-3{
+    background-color: rgb(255, 16, 96);
+}
+.red-4{
+    background-color: rgb(252, 0, 55);
+}
+.red-5{
+    background-color: rgb(252, 0, 168);
+}
+.red-6{
+    background-color: rgb(228, 74, 2);
+}
+
+/* green color gruop */
+.green{
+    background-color: green;
+}
+.green-1{
+    background-color: rgb(95, 146, 0);
+}
+.green-2{
+    background-color: rgb(136, 146, 0);
+}
+.green-3{
+    background-color: rgb(122, 252, 122);
+}
+.green-4{
+    background-color: rgb(0, 128, 85);
+}
+.green-5{
+    background-color: rgb(6, 192, 6)
+}
+.green-6{
+    background-color: rgb(0, 128, 117);
+}
+
+/* purple color group */
+.purple{
+    background-color: purple;
+}
+.purple-1{
+    background-color: rgb(255, 109, 255);
+}
+.purple-2{
+    background-color: rgb(245, 101, 197);
+}
+.purple-3{
+    background-color: rgb(180, 101, 245);
+}
+.purple-4{
+    background-color: rgb(238, 125, 253);
+}
+.purple-5{
+    background-color: rgb(247, 71, 153);
+}
+.purple-6{
+    background-color: rgb(161, 127, 255);
+}
+
+/* blue color group */
+.blue{
+    background-color: blue;
+}
+.blue-1{
+    background-color: rgb(2, 182, 137);
+}
+.blue-2{
+    background-color: rgb(56, 145, 247);
+}
+.blue-3{
+    background-color: rgb(121, 248, 242);
+}
+.blue-4{
+    background-color: rgb(121, 134, 248);
+}
+.blue-5{
+    background-color: rgb(144, 121, 248);
+}
+.blue-6{
+    background-color: rgb(98, 44, 197);
+}
+
+.big-hexagon-1{
+    position: relative;
+    left: 189px;
+    bottom: 35px;
+}
+
+.big-hexagon-2{
+    position: relative;
+    right: 189px;
+    top: 38px;
+}
+.big-hexagon-3{
+    position: relative;
+    right: 125px;
+    bottom: 149px;
+}
+.big-hexagon-4{
+    position: relative;
+    left: 65px;
+    bottom: 186px;
+}
+.big-hexagon-5{
+    position: relative;
+    top: 186px;
+    right: 62px;
+}
+.big-hexagon-6{
+    position: relative;
+    top: 151px;
+    left: 125px;
+}
